@@ -1,12 +1,13 @@
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import { App } from './App.tsx';
 import { Users } from './pages/users/Users.tsx';
+import { Error } from './pages/error/Error.tsx';
 
 export const router = createBrowserRouter( [
   {
     path: '/',
     element: <App/>,
-    errorElement: <div>Error page</div>,
+    errorElement: <Error />,
     children: [
       {
         index: true,

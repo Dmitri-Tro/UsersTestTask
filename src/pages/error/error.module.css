@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-m);
+  padding: var(--space-m);
+  margin-top: 10%;
+
+  .note {
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+    color: var(--color-error);
+  }
+}
