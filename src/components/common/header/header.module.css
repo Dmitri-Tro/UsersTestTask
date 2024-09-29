@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  background-color: var(--color-primary);
+  padding: var(--space-l);
+
+  .title {
+    color: var(--color-secondary);
+  }
+}

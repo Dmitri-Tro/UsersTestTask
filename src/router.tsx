@@ -1,5 +1,6 @@
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import { App } from './App.tsx';
+import { Users } from './pages/users/Users.tsx';
 
 export const router = createBrowserRouter( [
   {
@@ -13,7 +14,7 @@ export const router = createBrowserRouter( [
       },
       {
         path: '/users',
-        element: <div>Users page</div>,
+        element: <Users />,
       },
     ],
   },

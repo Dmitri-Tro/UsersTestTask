@@ -1,0 +1,6 @@
+.input {
+  padding: var(--radius-m);
+  border: 2px solid var(--color-primary);
+  outline-color: var(--color-primary);
+  border-radius: var(--radius-m);
+}
